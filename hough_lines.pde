@@ -17,6 +17,8 @@ void setup() {
 void draw() {
   image(inputImage, 0, 0);
 
+  //NB for "natural" images you will most often need to perform an edge-detection stage and probably threshold the result before applying the transform
+
   //As the image is static we don't really need to do this on every frame...
   HoughTransform h=new HoughTransform(inputImage);
   Vector<HoughLine> lines=h.getLines(4);  //get the top scoring 4 lines
