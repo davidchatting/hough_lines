@@ -6,5 +6,4 @@ Implementation for Processing.org of the Hough Transform for locating straight l
 An adaptation of Olly Oechsle's algorithm - http://vase.essex.ac.uk/software/HoughTransform/
 
 David Chatting - 4th March 2013
----
 davidchatting.com
